@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6aa61930.css",
+    "main.js": "/static/js/main.eab85aa0.js",
+    "static/media/Dither.svg": "/static/media/Dither.fa48b907f9a6feb5aaa5449c41a07e7e.svg",
+    "static/media/Hide.svg": "/static/media/Hide.90cd8c911c8969237d066d3eece20b6b.svg",
+    "static/media/brighten.svg": "/static/media/brighten.7f9f51549c68c5ab7055f83d5c3f1bea.svg",
+    "index.html": "/index.html",
+    "static/media/greyscale.svg": "/static/media/greyscale.e1ff8d0eaa6b95876fbb940e8934ac97.svg",
+    "static/media/Show.svg": "/static/media/Show.62a62777b4cb37c50d8dd196774fcf9b.svg",
+    "static/media/invert.svg": "/static/media/invert.2e526401b56fb0cbf5601599f9ff354e.svg",
+    "static/media/Blur.svg": "/static/media/Blur.ade4ea4d7141314c96a1e0dae9d47f78.svg",
+    "static/media/Down.svg": "/static/media/Down.8d4ffa51441ce21763b9e4f17f680b07.svg",
+    "static/media/Up.svg": "/static/media/Up.c591d0c23c73800b06db5e02b674cdbb.svg",
+    "main.6aa61930.css.map": "/static/css/main.6aa61930.css.map",
+    "main.eab85aa0.js.map": "/static/js/main.eab85aa0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6aa61930.css",
+    "static/js/main.eab85aa0.js"
+  ]
+}

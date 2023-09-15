@@ -1,0 +1,16 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - DEV_Key=s6RjBwBMUo4uf0qZLqwvCXmxgm_AyEsFjl1PNH7rqqU
+      - YOUTUBE_Key=AIzaSyCwaLoOE9q9pl4L1QLTEo73PZm6swHyi2w
+      - redisConfig={"socket":{"host":"redis","port":6379}}
+      - AWS_ACCESS_KEY_ID=ASIA5DYSEEJ4TLIPLY4L
+      - AWS_SECRET_ACCESS_KEY=luHHo2EoOQptyZ2TmNy/5bN7Ist93/IXOzDJ3iM/
+      - AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEJT//////////wEaDmFwLXNvdXRoZWFzdC0yIkgwRgIhAONe6d+iDruqkMxBpF1hZ/AgDzpsOvQtz+3zV5OgjUIcAiEArl5Tv4e2a0piIFD9vqxTd+jgvE0rAj8w/0T06wkKCykqsAMIPRACGgw5MDE0NDQyODA5NTMiDLG7lAjadHMT/7uXfSqNAy11r61aImDruZYnl7gxq2JcBzPCxVInYv6F/Vi55r0BdrDHF12xeHGeERVbmFY7AZNvQcH8Fy+2BsElu6xjuFuKKKgB/7Sr/wzhykq+GZZXhXdt/sIcAk44rCiBYDckEt8VlROJ6dL7dOUN5Jz8fOuccfUVfyLm9bUXdPG7XpM4F+a1KIi52A4sDsxuKZo1spSwR8LPnlkp0gisAAnTxGe7vSLjeRGkVJdMJzuJZOmR+ulQNJEs7nqKtJeHKAdNLnntOjC+Qv4KHZrCu93m2FKH2CZW9zQEqDpib+MtMnfIWHTclPsypIc5Z4CSwqbRLXvWqJgfaBCmEtJt1CcyJ1q8O6rU6nrAbuqFg7/2UTNAYmjaJ8TtqUbvxfTicIcpHV7pjDpKkMKXLQlXXgZxq8C0FNP+l90El/ktgGrpf6tyrNDEXDa1mg08Y53RIh05Er0LaDGA7+Im4nELxgN82m7En9BEeiWqU8f36JVce6t8ki40fd9eVVmPYhpBeRfWJ8+2j3YqciBgYroQA9Iw+defmQY6pQG8WiRNkBvB1R2vcbnRQPJkn0saGvHkE04hPOhix1+hJni1EW7xLH4MAJGlbOk+RRWUIkzuWtvDGLHeklVRIkhujQBGNmCZKcqFTkxHk+On0yFg946H6Z/e10Kx3mcCvDKgpXC3DXDvaLRLshvZrqrT3w7lokbNx72ks+cAhYCkDxOsmdbyIvpnb1pgMWTS5dAphnAbKbMInrtTHmN0ewjvm6WBYLY=
+    depends_on:
+      - redis
+  redis:
+    image: redis

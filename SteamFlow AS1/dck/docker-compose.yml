@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - DEV_Key=s6RjBwBMUo4uf0qZLqwvCXmxgm_AyEsFjl1PNH7rqqU
+      - YOUTUBE_Key=AIzaSyCwaLoOE9q9pl4L1QLTEo73PZm6swHyi2w
+      - redisConfig={"socket":{"host":"redis","port":6379}}
+    depends_on:
+      - redis
+  redis:
+    image: redis

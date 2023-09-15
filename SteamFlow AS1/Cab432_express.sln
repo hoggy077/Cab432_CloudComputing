@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Cab432_express", "Cab432_express\Cab432_express.njsproj", "{46BC1D2F-6380-4823-B06E-623F753432AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46BC1D2F-6380-4823-B06E-623F753432AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BC1D2F-6380-4823-B06E-623F753432AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BC1D2F-6380-4823-B06E-623F753432AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BC1D2F-6380-4823-B06E-623F753432AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D51DCC5C-FBC1-4B36-BA03-4BF77FC985C7}
+	EndGlobalSection
+EndGlobal

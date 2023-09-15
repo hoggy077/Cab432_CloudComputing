@@ -1,0 +1,22 @@
+{
+  "name": "as2_server",
+  "version": "0.0.0",
+  "description": "as2_server",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1243.0",
+    "body-parser": "^1.20.1",
+    "checksum": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jimp": "^0.16.2",
+    "luxon": "^3.1.0",
+    "path": "^0.12.7",
+    "redis": "^4.4.0"
+  }
+}
